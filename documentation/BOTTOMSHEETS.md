@@ -13,7 +13,7 @@
 
 ## Gradle Dependency
 
-[ ![Bottom Sheets](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Abottomsheets/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Abottomsheets/_latestVersion)
+[ ![Bottom Sheets](https://img.shields.io/maven-central/v/com.afollestad.material-dialogs/bottomsheets?label=bottomsheets&style=for-the-badge) ](https://repo1.maven.org/maven2/com/afollestad/material-dialogs/bottomsheets)
 
 The `bottomsheets` module contains extensions to turn modal dialogs into bottom sheets, among 
 other functionality like showing a grid of items.
@@ -65,7 +65,7 @@ If you've used Android bottom sheets before, peek height should be a familiar co
 height is the height of the bottom sheet when it's not fully expanded. It's a point between 
 expanded and hidden.
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/bottomsheet_peekheight.gif" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/bottomsheet_peekheight.gif" width="250px" />
 
 The default peek height is 60% of the screen height. You can set a custom peek height if you wish: 
 

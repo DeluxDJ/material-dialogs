@@ -16,7 +16,7 @@
 
 ## Gradle Dependency
 
-[ ![Files](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Afiles/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Afiles/_latestVersion)
+[ ![Files](https://img.shields.io/maven-central/v/com.afollestad.material-dialogs/files?label=files&style=for-the-badge) ](https://repo1.maven.org/maven2/com/afollestad/material-dialogs/files)
 
 The `files` module contains extensions to the core module, such as a file and folder chooser.
 
@@ -36,7 +36,7 @@ directory listings will come back empty.
 
 You create file choosers using the `fileChooser` extension on `MaterialDialog`:
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/file_chooser.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/file_chooser.png" width="250px" />
 
 ```kotlin
 MaterialDialog(this).show {
@@ -83,7 +83,7 @@ MaterialDialog(this).show {
 
 Empty text is shown when a folder has no contents. You can configure the empty text label:
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/file_emptytext.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/file_emptytext.png" width="250px" />
 
 ```kotlin
 MaterialDialog(this).show {
@@ -95,7 +95,7 @@ MaterialDialog(this).show {
 
 ### Folder Creation
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/file_folder_creation.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/file_folder_creation.png" width="250px" />
 
 You can allow your users to create folders. 
 
@@ -151,7 +151,7 @@ MaterialDialog(this).show {
 
 Empty text is shown when a folder has no contents. You can configure the empty text label:
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/file_emptytext.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/file_emptytext.png" width="250px" />
 
 ```kotlin
 MaterialDialog(this).show {
@@ -163,7 +163,7 @@ MaterialDialog(this).show {
 
 ### Folder Creation
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/file_folder_creation.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/file_folder_creation.png" width="250px" />
 
 You can allow your users to create folders. 
 

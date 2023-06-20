@@ -12,7 +12,7 @@
 
 ## Gradle Dependency
 
-[ ![Input](https://api.bintray.com/packages/drummer-aidan/maven/material-dialogs%3Ainput/images/download.svg) ](https://bintray.com/drummer-aidan/maven/material-dialogs%3Ainput/_latestVersion)
+[ ![Input](https://img.shields.io/maven-central/v/com.afollestad.material-dialogs/input?label=input&style=for-the-badge) ](https://repo1.maven.org/maven2/com/afollestad/material-dialogs/input)
 
 The `input` module contains extensions to the core module, such as a text input dialog.
 
@@ -29,7 +29,7 @@ dependencies {
 
 You can setup an input dialog using the `input` extension on `MaterialDialog`:
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/input.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/input.png" width="250px" />
 
 ```kotlin
 MaterialDialog(this).show {
@@ -138,7 +138,7 @@ MaterialDialog(this).show {
 You can set a max length which makes a character counter visible, and disables the positive action 
 button if the input length goes over that:
 
-<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/master/art/input_max_length.png" width="250px" />
+<img src="https://raw.githubusercontent.com/afollestad/material-dialogs/main/art/input_max_length.png" width="250px" />
 
 ```kotlin
 MaterialDialog(this).show {
